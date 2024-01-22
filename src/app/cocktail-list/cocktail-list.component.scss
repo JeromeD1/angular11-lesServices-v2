@@ -1,0 +1,14 @@
+.favorite {
+    border: 5px solid pink;
+    width: 350px;
+    padding: 25px;
+    margin: 25px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: blue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

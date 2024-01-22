@@ -1,0 +1,9 @@
+<main>
+    <h1>My json cocktails</h1>
+
+    <div *ngFor="let cocktail of cocktails" [class.favorite]="cocktail.name === 'Marguarita' " >
+        <p>Name : {{cocktail.name}} </p>
+        <p>Price : {{cocktail.price}}$</p>
+        <img [src]="cocktail.img" [alt]="cocktail.name" [title]="cocktail.name" >
+    </div>
+</main>
